@@ -6,6 +6,7 @@ import To_do from "./To_do";
 import Dynamic_Font_Resize from "./Dynamic_Font_Resize";
 import DynamicFontResizer from "./DynamicFontReSizer";
 import SimpleCalulator from "./SimpleCalculator";
+import BackgroundChange from "./BackgroundChange";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       <br />
       <br />
       <SimpleCalulator />
+      <br />
+      <br />
+      <BackgroundChange />
     </>
   );
 }
