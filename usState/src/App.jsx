@@ -5,6 +5,7 @@ import Hide_Show from "./Hide_Show";
 import To_do from "./To_do";
 import Dynamic_Font_Resize from "./Dynamic_Font_Resize";
 import DynamicFontResizer from "./DynamicFontReSizer";
+import SimpleCalulator from "./SimpleCalculator";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <br />
       <br />
       <DynamicFontResizer />
+
+      <br />
+      <br />
+      <SimpleCalulator />
     </>
   );
 }

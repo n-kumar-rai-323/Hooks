@@ -1,9 +1,16 @@
 import { useState } from "react";
 const Dynamic_Font_Resize = () => {
-  const [fontSize, setFontSize] = useState(16);
+  const initilze_value = () => {
+    console.log("functiong initilze");
+    return 16;
+  };
+  const [fontSize, setFontSize] = useState(() => initilze_value());
 
   const increaseFontSize = () => {
     setFontSize((prevSize) => prevSize + 2);
+    setFontSize((prevSize) => prevSize + 2);
+    // setFontSize(fontSize + 2);
+    // setFontSize(fontSize + 2); it is wrong way to increase value because in this type overide the uper state
   };
 
   const decreaseFontSize = () => {
