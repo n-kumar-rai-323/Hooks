@@ -3,6 +3,8 @@ import UseState from "./UseState";
 import Counter from "./Counter";
 import Hide_Show from "./Hide_Show";
 import To_do from "./To_do";
+import Dynamic_Font_Resize from "./Dynamic_Font_Resize";
+import DynamicFontResizer from "./DynamicFontReSizer";
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
       <br />
       <br />
       <To_do />
+      <br />
+      <br />
+      <Dynamic_Font_Resize />
+      <br />
+      <br />
+      <DynamicFontResizer />
     </>
   );
 }
