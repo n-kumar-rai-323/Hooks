@@ -7,6 +7,8 @@ import Dynamic_Font_Resize from "./Dynamic_Font_Resize";
 import DynamicFontResizer from "./DynamicFontReSizer";
 import SimpleCalulator from "./SimpleCalculator";
 import BackgroundChange from "./BackgroundChange";
+import Character from "./Character";
+import Objusestate from "./ObjuseState";
 
 function App() {
   return (
@@ -35,6 +37,12 @@ function App() {
       <br />
       <br />
       <BackgroundChange />
+      <br />
+      <br />
+      <Character />
+      <br />
+      <br />
+      <Objusestate />
     </>
   );
 }

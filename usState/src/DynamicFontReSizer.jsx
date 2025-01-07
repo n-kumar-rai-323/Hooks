@@ -1,5 +1,5 @@
 // DynamicFontResizer.js
-import React, { useState } from "react";
+import { useState } from "react";
 
 const DynamicFontResizer = () => {
   const [fontSize, setFontSize] = useState(16); // Initial font size in pixels
